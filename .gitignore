@@ -3,6 +3,7 @@
 
 # Ignore ONLY the large dataset
 complete_data.csv
+complete_data_recreated.csv
 retail_data.csv
 
 # Ignore large model files
