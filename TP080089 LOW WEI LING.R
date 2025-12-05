@@ -41,7 +41,7 @@ check_na <- function(data, step) {
   }
 }
 # Import dataset
-complete_data <- read.csv("C:\\Users\\Ling\\Desktop\\Y2S1\\data analysis r code\\R assignment\\complete_data.csv")
+complete_data <- read.csv("complete_data.csv")
 
 # Check for NAs after loading the dataset
 check_na(complete_data, "Dataset Import")
