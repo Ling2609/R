@@ -1,5 +1,7 @@
 # **Retail Customer Satisfaction: Demographic & Geographic Analysis**
 
+![Interactive Geospatial Analysis](screenshots/leaflet_map_preview.png)
+
 This repository contains the R scripts for the individual component of a retail analytics project by **Low Wei Ling (TP080089)**.
 
 Because of file size limits, the dataset files are **not included** in this repository. You must provide the raw dataset locally to run the scripts.
@@ -86,6 +88,11 @@ This component investigates:
 
 > **Which demographic and geographic factors influence customer satisfaction ratings?**
 
+### 🤖 **Machine Learning Insights**
+The following feature importance plot (derived from XGBoost) highlights the key drivers of satisfaction:
+
+![XGBoost Feature Importance](screenshots/feature_importance.png)
+
 ### 🔍 **Major Findings**
 
 #### ⭐ **1. Age is the Most Influential Predictor**
@@ -95,12 +102,16 @@ Using **Chi-Square** and **Cramér’s V**, age showed the strongest relationshi
 * Older customers (**46+**) report higher satisfaction
 * Younger customers (**18–25**) tend to rate lower
 
+![Age Group Satisfaction Trend](screenshots/age_trend_chart.png)
+
 #### 💸 **2. The Income Paradox**
 
 Higher income groups show **slightly lower satisfaction**, suggesting:
 
 * Wealthier customers have higher expectations
 * They are more critical of service quality
+
+![Income Satisfaction Distribution](screenshots/income_chart.png)
 
 #### 🌍 **3. Geography Has a Smaller Impact**
 
