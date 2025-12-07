@@ -1,19 +1,24 @@
 # Ignore data files
+*.csv
 *.xlsx
+*.xls
 
-# Ignore ONLY the large dataset
-complete_data.csv
-complete_data_recreated.csv
-retail_data.csv
+# R Session Files (Temporary Junk)
+.Rproj.user
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
 
 # Ignore large model files
 *.rds
+*.rda
 *.RData
 
-# Ignore R project user settings
-.Rproj.user
-
-.Rhistory
-.httr-oauth
+# Operating System Junk
 .DS_Store
+Thumbs.db
+
+# Other Configs
+.httr-oauth
 .quarto
